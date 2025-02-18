@@ -6,54 +6,56 @@ const dogs = [
   {
     name: "Golden Retriever Dog",
     description: "Meet our friendly and loyal Golden Retriever dogs at The Pawfect Store - the perfect companion for your home! 🐕",
-    imageUrl: "/GRDog.jpeg" // Added leading slash
+    imageUrl: "/GRDog.jpeg"
   },
   {
-    name: "French Bulldog Dog",
+    name: "French Bulldog",
     description: "Adopt a playful and affectionate French Bulldog from The Pawfect Store - the perfect companion for your apartment! 🐕",
-    imageUrl: "/FBDog.jpeg" // Added leading slash
+    imageUrl: "/FBDog.jpeg"
   },
   {
     name: "German Shepherd Dog",
     description: "Meet our intelligent and loyal German Shepherd dogs at The Pawfect Store - large in size, but big in love and loyalty! 🐕",
-    imageUrl: "/GSDog.jpeg" // Added leading slash
+    imageUrl: "/GSDog.jpeg"
   },
   {
     name: "Poodle Dog",
     description: "Fall in love with our intelligent and elegant Poodle dogs at The Pawfect Store - where personality meets style! 🐕",
-    imageUrl: "/poodle.jpeg" // Added leading slash
+    imageUrl: "/poodle.jpeg"
   },
   {
     name: "Boxer Dog",
     description: "Our Boxer dogs are known for their playful and energetic nature. Adopt one today! 🐕",
-    imageUrl: "/boxer.jpeg", // Added leading slash
+    imageUrl: "/boxer.jpeg",
   },
   {
-    name: "Bulldog Dog",
+    name: "Bull Dog",
     description: "Our Bulldog dogs are incredibly affectionate and laid-back - perfect companions for your home. 🐕",
-    imageUrl: "/bulldog.jpeg", // Added leading slash
+    imageUrl: "/bulldog.jpeg",
   },
   {
     name: "Pug Dog",
     description: "Discover the unique and loving personality of our Pug dogs. They're full of energy and love! 🐕",
-    imageUrl: "/pug.jpeg", // Added leading slash
+    imageUrl: "/pug.jpeg",
   },
   {
     name: "Shih Tzu Dog",
     description: "Adopt an affectionate and outgoing Shih Tzu dog today - with a loving and friendly personality! 🐕",
-    imageUrl: "/shihtzu.jpeg", // Added leading slash
+    imageUrl: "/shihtzu.jpeg",
   },
   {
     name: "Dachshund Dog",
     description: "Our Dachshund dogs are playful and full of energy. Adopt one for an active, loving companion. 🐕",
-    imageUrl: "/dachshund.jpeg", // Added leading slash
+    imageUrl: "/dachshund.jpeg",
   },
   {
     name: "Beagle Dog",
     description: "Our Beagle dogs are playful and full of energy. Adopt one for an active, loving companion. 🐕",
-    imageUrl: "/beagle.jpeg", // Added leading slash
+    imageUrl: "/beagle.jpeg",
   },
 ];
+
+const formatUrl = (name: string) => name.toLowerCase().replace(/\s+/g, '-'); // Helper function to format the URL
 
 const Dog = () => {
   return (
@@ -80,17 +82,19 @@ const Dog = () => {
                   src={dog.imageUrl}
                 />
                 <div className="px-6 pb-6">
-                  <Link href={`/components/pets/dog/${dog.name.toLowerCase().replace(' ', '-')}`}>
-                    <h2 className="title-font font-semibold text-2xl text-gray-900 mb-2">
+                  <Link href={`/components/pets/dog/${formatUrl(dog.name)}`} passHref>
+                    <h2 className="title-font font-semibold text-2xl text-gray-900 mb-2 hover:text-teal-500 transition-colors cursor-pointer">
                       {dog.name}
                     </h2>
                   </Link>
                   <p className="mb-4 text-lg text-gray-600">
                     🐶 <strong>{dog.description}</strong>
                   </p>
-                  <button className="bg-teal-500 text-white px-6 py-2 rounded-full text-lg hover:bg-teal-600 transition-all duration-200">
-                    <a href="/components/payment">Buy Now</a>
-                  </button>
+                  <Link href="/components/payment">
+                    <button className="bg-teal-500 text-white px-6 py-2 rounded-full text-lg hover:bg-teal-600 transition-all duration-200">
+                      Buy Now
+                    </button>
+                  </Link>
                 </div>
               </div>
             </div>
