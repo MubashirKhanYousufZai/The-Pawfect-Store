@@ -1,4 +1,5 @@
 "use client"
+import Link from "next/link";
 import React, { useState } from "react";
 import { FaPhone, FaEnvelope, FaMapMarkerAlt, FaWhatsapp } from "react-icons/fa";
 import { FiGithub, FiLinkedin } from "react-icons/fi";
@@ -52,16 +53,20 @@ const Contact = () => {
 
       {/* Contact Info */}
       <div className="mt-10 grid grid-cols-1 sm:grid-cols-3 gap-8 w-full max-w-4xl">
+        <Link href={""}>
         <div className="flex flex-col items-center bg-white shadow-lg p-6 rounded-xl">
           <FaPhone className="text-3xl text-teal-500" />
           <h3 className="text-lg font-semibold mt-2">Phone</h3>
           <p className="text-gray-600">+92 315 266 9152</p>
         </div>
+        </Link>
+        <Link href={"mailto:mubashirmpa2008@gmail.com"}>
         <div className="flex flex-col items-center bg-white shadow-lg p-6 rounded-xl">
           <FaEnvelope className="text-3xl text-teal-500" />
           <h3 className="text-lg font-semibold mt-2">Email</h3>
           <p className="text-gray-600">munashirmpa2008@gmail.com</p>
         </div>
+        </Link>
         <div className="flex flex-col items-center bg-white shadow-lg p-6 rounded-xl">
           <FaMapMarkerAlt className="text-3xl text-teal-500" />
           <h3 className="text-lg font-semibold mt-2">Location</h3>

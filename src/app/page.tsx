@@ -2,6 +2,7 @@ import Image from 'next/image'
 import Link from 'next/link'
 import React from 'react'
 import Gives from './components/about/page'
+import Contact from './components/contact/page'
 
 const Home = () => {
   return (
@@ -54,6 +55,7 @@ const Home = () => {
         </div>
       </div>
       <Gives/>
+      <Contact/>
     </section>
   )
 }
