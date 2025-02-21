@@ -54,6 +54,8 @@ const horses = [
     imageUrl: "/welsh.jpeg",
   },
 ];
+// Explicitly define the type of the name parameter
+const formatUrl = (name: string) => name.toLowerCase().replace(/\s+/g, '-'); // ✅ Fixes spaces in URLs
 
 const Horse = () => {
   return (
@@ -80,8 +82,8 @@ const Horse = () => {
                   src={horse.imageUrl}
                 />
                 <div className="px-6 pb-6">
-                  <Link href={`/components/pets/horse/${horse.name.toLowerCase().replace(/\s+/g, "-")}`}>
-                    <h2 className="title-font font-semibold text-2xl text-gray-900 mb-2">
+                <Link href={`/components/pets/horse/${formatUrl(horse.name)}`} passHref>
+                    <h2 className="title-font font-semibold text-2xl text-gray-900 mb-2 hover:text-teal-500 transition-colors cursor-pointer">
                       {horse.name}
                     </h2>
                   </Link>

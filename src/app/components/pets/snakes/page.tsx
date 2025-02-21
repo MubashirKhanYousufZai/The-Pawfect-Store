@@ -39,7 +39,7 @@ const Snakes = [
     imageUrl: "/green.jpeg",
   },
   {
-    name: "Macklot's Python",
+    name: "Macklots Python",
     description: "Macklot's Pythons are found in Indonesia and are known for their distinctive pattern and aggressive behavior. 🐍",
     imageUrl: "/macklots.jpeg",
   },
@@ -55,13 +55,16 @@ const Snakes = [
   },
 ];
 
+// Explicitly define the type of the name parameter
+const formatUrl = (name: string) => name.toLowerCase().replace(/\s+/g, '-'); // ✅ Fixes spaces in URLs
+
 const Pythons = () => {
   return (
     <section className="text-gray-600 body-font">
       <div className="container px-5 py-24 mx-auto">
         <div className="flex flex-col text-center w-full mb-16">
           <h1 className="text-3xl sm:text-4xl font-bold title-font mb-4 text-gray-900">
-            Pythons 🐍
+            Snakes 🐍
           </h1>
           <p className="lg:w-2/3 mx-auto leading-relaxed text-lg sm:text-xl text-gray-700">
             Explore the fascinating world of pythons! From the massive Burmese Python to the vibrant Green Tree Python, discover the unique characteristics and habitats of these incredible snakes. 🐍
@@ -79,8 +82,8 @@ const Pythons = () => {
                   src={python.imageUrl}
                 />
                 <div className="px-6 pb-6">
-                  <Link href={`/components/pets/python/${python.name.toLowerCase().replace(' ', '-')}`}>
-                    <h2 className="title-font font-semibold text-2xl text-gray-900 mb-2">
+                <Link href={`/components/pets/snakes/${formatUrl(python.name)}`} passHref>
+                    <h2 className="title-font font-semibold text-2xl text-gray-900 mb-2 hover:text-teal-500 transition-colors cursor-pointer">
                       {python.name}
                     </h2>
                   </Link>

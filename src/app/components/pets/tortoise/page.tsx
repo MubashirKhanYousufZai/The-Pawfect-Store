@@ -44,7 +44,7 @@ const tortoises = [
     imageUrl: "/aldabra.jpeg",
   },
   {
-    name: "Galápagos Tortoise",
+    name: "Galapagos Tortoise",
     description: "A living legend, known for its massive size and long lifespan! 🦕",
     imageUrl: "/galapagos.jpeg",
   },
@@ -54,6 +54,8 @@ const tortoises = [
     imageUrl: "/egyptian.jpeg",
   },
 ];
+// Explicitly define the type of the name parameter
+const formatUrl = (name: string) => name.toLowerCase().replace(/\s+/g, '-'); // ✅ Fixes spaces in URLs
 
 const Tortoise = () => {
   return (
@@ -80,8 +82,8 @@ const Tortoise = () => {
                   src={tortoise.imageUrl}
                 />
                 <div className="px-6 pb-6">
-                  <Link href={`/components/pets/tortoise/${tortoise.name.toLowerCase().replace(/\s+/g, "-")}`}>
-                    <h2 className="title-font font-semibold text-2xl text-gray-900 mb-2">
+                <Link href={`/components/pets/tortoise/${formatUrl(tortoise.name)}`} passHref>
+                    <h2 className="title-font font-semibold text-2xl text-gray-900 mb-2 hover:text-teal-500 transition-colors cursor-pointer">
                       {tortoise.name}
                     </h2>
                   </Link>

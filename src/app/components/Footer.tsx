@@ -3,36 +3,38 @@ import { FaGithub, FaLinkedin, FaPaw, FaWhatsapp } from "react-icons/fa";
 
 const Footer = () => {
   return (
-    <footer className="text-white bg-teal-500 body-font">
-      <div className="container px-5 py-8 mx-auto flex items-center sm:flex-row flex-col">
-        {/* Logo and Brand Name */}
+    <footer className="bg-teal-500 text-white py-6">
+      <div className="container mx-auto flex flex-col sm:flex-row items-center justify-between px-6 sm:px-12">
+        
+        {/* Brand Logo & Name */}
         <a
-          className="flex title-font font-medium items-center md:justify-start justify-center text-white hover:text-gray-200 transition"
           href="/"
+          className="flex items-center gap-2 text-white hover:text-gray-200 transition duration-300"
         >
-          <FaPaw className="text-2xl" />
-          <span className="ml-3 text-xl font-semibold">The Pawfect Store</span>
+          <FaPaw className="text-3xl" />
+          <span className="text-lg font-semibold tracking-wide">
+            The Pawfect Store
+          </span>
         </a>
 
-        {/* Copyright and Email */}
-        <p className="text-sm text-gray-200 sm:ml-4 sm:pl-4 sm:border-l-2 sm:border-teal-300 sm:py-2 sm:mt-0 mt-4">
+        {/* Copyright & Contact */}
+        <p className="text-sm text-gray-200 text-center sm:text-left mt-4 sm:mt-0">
           © {new Date().getFullYear()} The Pawfect Store —{" "}
           <a
             href="mailto:mubashirmpa2008@gmail.com"
-            className="text-white underline hover:text-gray-300 transition"
-            rel="noopener noreferrer"
+            className="underline hover:text-gray-300 transition duration-300"
           >
             mubashirmpa2008@gmail.com
           </a>
         </p>
 
         {/* Social Links */}
-        <span className="inline-flex sm:ml-auto sm:mt-0 mt-4 justify-center sm:justify-start">
+        <div className="flex gap-4 mt-4 sm:mt-0">
           <a
             href="https://www.linkedin.com/in/mubashir-khan-538a662bb/"
             target="_blank"
             rel="noopener noreferrer"
-            className="text-white hover:text-gray-300 transition mx-2"
+            className="text-white hover:text-gray-300 transition duration-300"
             aria-label="LinkedIn"
           >
             <FaLinkedin className="text-2xl" />
@@ -41,7 +43,7 @@ const Footer = () => {
             href="https://github.com/MubashirKhanYousufZai"
             target="_blank"
             rel="noopener noreferrer"
-            className="text-white hover:text-gray-300 transition mx-2"
+            className="text-white hover:text-gray-300 transition duration-300"
             aria-label="GitHub"
           >
             <FaGithub className="text-2xl" />
@@ -50,12 +52,13 @@ const Footer = () => {
             href="https://wa.me/qr/FWX3BWWPABVRG1"
             target="_blank"
             rel="noopener noreferrer"
-            className="text-white hover:text-gray-300 transition mx-2"
+            className="text-white hover:text-gray-300 transition duration-300"
             aria-label="WhatsApp"
           >
             <FaWhatsapp className="text-2xl" />
           </a>
-        </span>
+        </div>
+
       </div>
     </footer>
   );
