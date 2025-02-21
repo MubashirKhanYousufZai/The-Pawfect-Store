@@ -3,7 +3,7 @@ import Link from 'next/link';
 import React from 'react';
 import { AiOutlineHeart } from 'react-icons/ai';
 
-const GermanShepherdPage = () => {
+const GoldenRetrieverPage = () => {
   return (
     <div className="bg-teal-100 min-h-screen flex items-center justify-center">
       <section className="text-gray-600 body-font">
@@ -13,11 +13,11 @@ const GermanShepherdPage = () => {
             {/* Product Image */}
             <div className="md:w-1/2">
               <Image
-                alt="German Shepherd Dog"
+                alt="Golden Retriever Dog"
                 width={500}
                 height={500}
                 className="w-full h-full object-cover"
-                src="/GSDog.jpeg" // Replace with the actual image path
+                src="/GRDog.jpeg" // Replace with the actual image path
               />
             </div>
 
@@ -27,19 +27,18 @@ const GermanShepherdPage = () => {
                 The Pawfect Store
               </h2>
               <h1 className="text-gray-900 text-4xl font-bold mt-2">
-                German Shepherd Dog 🐕
+                Golden Retriever Dog 🐕
               </h1>
               <p className="text-gray-600 text-lg mt-4 leading-relaxed">
-                The <strong>Pawfect Store</strong> proudly presents the **German Shepherd** 🐶, 
-                a highly intelligent and versatile breed. German Shepherds are well-known for their 
-                loyalty, strength, and protective nature, making them the ideal working dogs and family 
-                companions. 🏡💖 Our German Shepherds are **well-trained**, **alert**, and ready to join your 
-                **forever family** 🏠🐾.
+                The <strong>Pawfect Store</strong> is excited to offer the **Golden Retriever** 🐶💛, 
+                a breed known for its **friendly, loyal**, and **intelligent** nature. Golden Retrievers 
+                are the perfect companions for families, offering love, affection, and endless joy. 🏡💖 
+                Our Golden Retrievers are **well-socialized**, **healthy**, and eager to become part of your **forever family**. 🏠🐾
               </p>
 
               {/* Price and Buttons */}
               <div className="flex items-center mt-6">
-                <span className="title-font font-bold text-3xl text-gray-900">$120.00</span>
+                <span className="title-font font-bold text-3xl text-gray-900">$95.00</span>
                 
                 <div className="flex-grow flex justify-end items-center space-x-4">
                   <Link href="/components/payment">
@@ -64,4 +63,5 @@ const GermanShepherdPage = () => {
   );
 };
 
-export default GermanShepherdPage;
+export default GoldenRetrieverPage;
+
