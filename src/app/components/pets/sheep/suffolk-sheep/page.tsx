@@ -39,7 +39,7 @@ const SuffolkSheepPage = () => {
                 to handle and manage. 
 
                 Suffolk sheep are a great choice for those looking to raise sheep for meat production, and they adapt well to a variety 
-                of environments, whether it’s **small-scale farming** or larger operations. If you’re looking for a reliable and profitable 
+                of environments, whether its **small-scale farming** or larger operations. If you are looking for a reliable and profitable 
                 breed, the Suffolk Sheep is a perfect addition to your farm. 🐑✨
               </p>
 

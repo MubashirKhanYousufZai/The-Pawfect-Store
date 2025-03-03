@@ -39,7 +39,7 @@ const CorydorasCatfishPage = () => {
                 make them ideal for tanks of all sizes, and they are particularly compatible with other non-aggressive species.
 
                 With their **distinctive barbels** and **silvery body**, Corydoras Catfish are not only functional but also a charming and 
-                fun addition to any aquarium. Whether you're a beginner or an experienced aquarist, these catfish are sure to add charm and 
+                fun addition to any aquarium. Whether you are a beginner or an experienced aquarist, these catfish are sure to add charm and 
                 activity to your tank. 🐟✨
               </p>
 

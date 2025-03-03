@@ -40,7 +40,7 @@ const GulatiGoatPage = () => {
                 Gulati goats are **hardy**, **resilient**, and can thrive in a variety of **climates**, from **hot** to **moderate conditions**. 
                 Their **docile and calm temperament** makes them easy to manage, making them suitable for both **new and experienced breeders**.
 
-                If you're looking for a **robust, high-quality meat goat** with a **calm nature**, the Gulati Goat is a fantastic option for your farm! 🐐✨
+                If you are looking for a **robust, high-quality meat goat** with a **calm nature**, the Gulati Goat is a fantastic option for your farm! 🐐✨
               </p>
 
               {/* Price and Buttons */}

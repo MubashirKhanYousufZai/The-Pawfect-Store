@@ -39,7 +39,7 @@ const RedEaredSliderTurtlePage = () => {
                 they are **easy to care for** as long as their habitat is properly maintained, providing both a water area and a dry basking spot.
 
                 Red-Eared Sliders can live for many years, making them a long-term companion for those who are prepared to meet their care needs. 
-                Whether you're new to turtle ownership or have experience, the Red-Eared Slider Turtle is a fascinating and **low-maintenance** 
+                Whether you are new to turtle ownership or have experience, the Red-Eared Slider Turtle is a fascinating and **low-maintenance** 
                 pet that will thrive in a well-kept environment. 🐢✨
               </p>
 

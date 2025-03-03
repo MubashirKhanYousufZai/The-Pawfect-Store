@@ -40,7 +40,7 @@ const IndianStarTortoisePage = () => {
                 sunlight or UVB lighting. With proper care, they can live for **30-80 years**, making them a long-term commitment 
                 for dedicated reptile enthusiasts.
                 
-                If you're looking for a **graceful, low-maintenance, and visually stunning** pet tortoise, the Indian Star Tortoise 
+                If you are looking for a **graceful, low-maintenance, and visually stunning** pet tortoise, the Indian Star Tortoise 
                 is an excellent choice! 🐢✨
               </p>
 

@@ -38,7 +38,7 @@ const HampshireSheepPage = () => {
                 ideal for different farming systems. They are **easy to handle**, with a calm temperament, and their **eager mothering instincts** 
                 make them ideal for any farmer looking to raise quality lambs.
 
-                Known for their **high yield of lean meat**, Hampshire Sheep are highly sought after for **meat production**. Whether you're 
+                Known for their **high yield of lean meat**, Hampshire Sheep are highly sought after for **meat production**. Whether you are 
                 raising them for **breeding** or **meat**, they are a great investment for any farm. 🐑✨
               </p>
 

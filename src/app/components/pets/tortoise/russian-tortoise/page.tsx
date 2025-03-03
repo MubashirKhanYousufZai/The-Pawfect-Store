@@ -39,7 +39,7 @@ const RussianTortoisePage = () => {
                 This species thrives in **dry, arid environments** and requires an enclosure with a warm basking area and plenty of 
                 room to roam. With the right care, they can live for **40+ years**, making them a wonderful long-term companion.
                 
-                If you're looking for a **small, active, and low-maintenance** pet tortoise, the Russian Tortoise is an excellent 
+                If you are looking for a **small, active, and low-maintenance** pet tortoise, the Russian Tortoise is an excellent 
                 choice! 🐢✨
               </p>
 

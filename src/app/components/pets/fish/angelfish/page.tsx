@@ -39,7 +39,7 @@ const AngelfishPage = () => {
                 making them suitable for both beginners and experienced fish keepers. While they thrive in **warm, slightly acidic water**, 
                 they are adaptable to different environments, making them a versatile addition to any aquarium.
 
-                Whether you're looking for a **beautiful centerpiece** for your tank or a **graceful fish** with a calming presence, 
+                Whether you are looking for a **beautiful centerpiece** for your tank or a **graceful fish** with a calming presence, 
                 the Angelfish is a perfect choice. 🐠✨
               </p>
 

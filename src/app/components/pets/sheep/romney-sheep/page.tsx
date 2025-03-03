@@ -35,7 +35,7 @@ const RomneySheepPage = () => {
 
                 Known for their **adaptability**, Romneys are resilient in both **wet and dry conditions**, and their wool is highly valued in the textile industry for its **softness and durability**. Additionally, the breed has excellent **meat quality**, producing **lean, flavorful lamb** with great conformation.
 
-                Romney Sheep are known for their **easy temperament** and are well-suited to various farming systems. Whether you're raising them for their **wool**, **meat**, or **breeding**, Romney Sheep offer significant benefits to any farm. 🐑✨
+                Romney Sheep are known for their **easy temperament** and are well-suited to various farming systems. Whether you are raising them for their **wool**, **meat**, or **breeding**, Romney Sheep offer significant benefits to any farm. 🐑✨
               </p>
 
               {/* Price and Buttons */}

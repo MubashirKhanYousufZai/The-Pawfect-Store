@@ -30,7 +30,7 @@ const EasternPaintedTurtlePage = () => {
                 Eastern Painted Turtle 🐢
               </h1>
               <p className="text-gray-600 text-lg mt-4 leading-relaxed">
-                The **Eastern Painted Turtle** is one of North America's most vibrant and beautiful freshwater turtles, 
+                The **Eastern Painted Turtle** is one of North Americas most vibrant and beautiful freshwater turtles, 
                 easily identified by its **brightly colored markings**, including red and yellow stripes on the sides of its head 
                 and along its limbs. This species is found in slow-moving bodies of water such as ponds, lakes, and marshes, where it 
                 spends time basking in the sun and swimming.

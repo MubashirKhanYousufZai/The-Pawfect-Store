@@ -10,7 +10,8 @@ const Contact = () => {
     email: "",
     message: "",
   });
-  const [status, setStatus] = useState<string | null>(null); // status is either a string or null
+  const [status, setStatus] = useState<string | null>(null);
+  const [isSubmitting, setIsSubmitting] = useState(false);
 
   const handleChange = (e: React.ChangeEvent<HTMLInputElement | HTMLTextAreaElement>) => {
     const { name, value } = e.target;
@@ -20,10 +21,19 @@ const Contact = () => {
     }));
   };
 
+  const validateForm = () => {
+    return formData.name && formData.email && formData.message;
+  };
+
   const handleSubmit = async (e: React.FormEvent) => {
     e.preventDefault();
+    if (!validateForm()) {
+      setStatus("Please fill all fields.");
+      return;
+    }
 
     setStatus("Sending...");
+    setIsSubmitting(true);
 
     const res = await fetch("/api/contact", {
       method: "POST",
@@ -36,10 +46,11 @@ const Contact = () => {
     const result = await res.json();
     if (res.status === 200) {
       setStatus("Message sent successfully!");
-      setFormData({ name: "", email: "", message: "" }); // Clear form
+      setFormData({ name: "", email: "", message: "" });
     } else {
       setStatus(result.message || "Something went wrong");
     }
+    setIsSubmitting(false);
   };
 
   return (
@@ -53,19 +64,19 @@ const Contact = () => {
 
       {/* Contact Info */}
       <div className="mt-10 grid grid-cols-1 sm:grid-cols-3 gap-8 w-full max-w-4xl">
-        <Link href={""}>
-        <div className="flex flex-col items-center bg-white shadow-lg p-6 rounded-xl">
-          <FaPhone className="text-3xl text-teal-500" />
-          <h3 className="text-lg font-semibold mt-2">Phone</h3>
-          <p className="text-gray-600">+92 315 266 9152</p>
-        </div>
+        <Link href={"https://wa.me/qr/FWX3BWWPABVRG1"}>
+          <div className="flex flex-col items-center bg-white shadow-lg p-6 rounded-xl">
+            <FaPhone className="text-3xl text-teal-500" />
+            <h3 className="text-lg font-semibold mt-2">Phone</h3>
+            <p className="text-gray-600">+92 315 266 9152</p>
+          </div>
         </Link>
         <Link href={"mailto:mubashirmpa2008@gmail.com"}>
-        <div className="flex flex-col items-center bg-white shadow-lg p-6 rounded-xl">
-          <FaEnvelope className="text-3xl text-teal-500" />
-          <h3 className="text-lg font-semibold mt-2">Email</h3>
-          <p className="text-gray-600">munashirmpa2008@gmail.com</p>
-        </div>
+          <div className="flex flex-col items-center bg-white shadow-lg p-6 rounded-xl">
+            <FaEnvelope className="text-3xl text-teal-500" />
+            <h3 className="text-lg font-semibold mt-2">Email</h3>
+            <p className="text-gray-600">munashirmpa2008@gmail.com</p>
+          </div>
         </Link>
         <div className="flex flex-col items-center bg-white shadow-lg p-6 rounded-xl">
           <FaMapMarkerAlt className="text-3xl text-teal-500" />
@@ -104,13 +115,14 @@ const Contact = () => {
         />
         <button
           type="submit"
-          className="mt-4 w-full bg-teal-500 text-white px-6 py-3 text-lg font-semibold rounded-lg shadow-md hover:bg-teal-600 transition duration-300"
+          disabled={isSubmitting}
+          className="mt-4 w-full bg-teal-500 text-white px-6 py-3 text-lg font-semibold rounded-lg shadow-md hover:bg-teal-600 transition duration-300 disabled:bg-teal-300"
         >
-          Send Message
+          {isSubmitting ? "Sending..." : "Send Message"}
         </button>
       </form>
 
-      {status && <p className="mt-4 text-lg text-teal-500">{status}</p>}
+      {status && <p className="mt-4 text-lg text-teal-500" aria-live="polite">{status}</p>}
 
       {/* Social Links */}
       <div className="mt-8 flex space-x-6">

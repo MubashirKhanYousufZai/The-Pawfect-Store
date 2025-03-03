@@ -38,7 +38,7 @@ const MollyFishPage = () => {
                 meaning they give birth to live young, making breeding them a fun experience. They thrive in **moderately hard water** and 
                 are known for their adaptability to different water conditions.
 
-                Whether you're a beginner looking for a **low-maintenance fish** or an experienced aquarist seeking a **colorful, active addition** 
+                Whether you are a beginner looking for a **low-maintenance fish** or an experienced aquarist seeking a **colorful, active addition** 
                 to your aquarium, the Molly Fish is a fantastic choice. 🐠✨
               </p>
 

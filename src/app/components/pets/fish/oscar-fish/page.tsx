@@ -38,7 +38,7 @@ const OscarFishPage = () => {
                 They are **omnivorous**, eating a wide variety of foods, including pellets, live foods, and even smaller fish. Their high intelligence 
                 allows them to recognize their owners, and many aquarists enjoy the **bonding experience** with these fish.
 
-                If you're looking for a **highly interactive** fish with a **bold personality**, the Oscar Fish is a perfect choice for an aquarium 
+                If you are looking for a **highly interactive** fish with a **bold personality**, the Oscar Fish is a perfect choice for an aquarium 
                 that can accommodate its size and temperament. 🐟✨
               </p>
 

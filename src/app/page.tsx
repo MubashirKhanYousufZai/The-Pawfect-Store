@@ -24,7 +24,7 @@ const Home = () => {
           <p className="text-lg leading-relaxed max-w-lg text-gray-600">
             Every item in our collection is crafted with **love, care, and quality**  
             to ensure **comfort, durability, and style** for your beloved companions.  
-            Because when it comes to your pets, only **pure &quot;PAWFECTION&quot;** will do! 🐶🐱🐾
+            Because when it comes to your pets, only **pure PAWFECTION** will do! 🐶🐱🐾
           </p>
           <div className="flex justify-center">
             <Link href="/shop">

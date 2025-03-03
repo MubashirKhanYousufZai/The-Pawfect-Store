@@ -40,7 +40,7 @@ const CheviotSheepPage = () => {
                 textiles due to its **durability** and **soft texture**. Additionally, their **meat** is tender and flavorful, 
                 making them a sought-after choice for those looking for quality livestock.
 
-                Whether you're interested in wool production or raising sheep for meat, the **Cheviot Sheep** provides a **reliable**, 
+                Whether you are interested in wool production or raising sheep for meat, the **Cheviot Sheep** provides a **reliable**, 
                 **profitable** addition to any farm. 🐑✨
               </p>
 

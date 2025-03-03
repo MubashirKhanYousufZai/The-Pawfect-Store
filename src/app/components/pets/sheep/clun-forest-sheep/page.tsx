@@ -39,7 +39,7 @@ const ClunForestSheepPage = () => {
                 of Clun Forest Sheep makes them easy to handle, even in larger flocks.
 
                 These sheep are particularly well-suited for **sustainable farming**, thriving in **harder grazing systems** and 
-                offering great potential for both **meat and wool** production. Whether you're raising them for **breeding** or 
+                offering great potential for both **meat and wool** production. Whether you are raising them for **breeding** or 
                 **meat**, Clun Forest Sheep are a reliable choice for any farm. 🐑✨
               </p>
 

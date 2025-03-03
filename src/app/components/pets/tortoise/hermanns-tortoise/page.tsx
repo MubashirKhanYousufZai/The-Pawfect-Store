@@ -30,17 +30,17 @@ const HermannsTortoisePage = () => {
                 Hermanns Tortoise 🐢
               </h1>
               <p className="text-gray-600 text-lg mt-4 leading-relaxed">
-                The **Hermann's Tortoise** (Testudo hermanni) is a small, hardy species native to **Southern Europe**, particularly 
+                The **Hermanns Tortoise** (Testudo hermanni) is a small, hardy species native to **Southern Europe**, particularly 
                 found in Mediterranean regions. It is admired for its **golden-yellow shell with bold black markings**.
                 
-                Hermann's Tortoises are **herbivorous**, primarily feeding on **grasses, flowers, and leafy teals**. They typically 
+                Hermanns Tortoises are **herbivorous**, primarily feeding on **grasses, flowers, and leafy teals**. They typically 
                 grow between **6-10 inches** in length, making them an ideal choice for those looking for a pet tortoise with 
                 manageable size.
                 
                 This species prefers **warm, dry climates** and requires plenty of sunlight or UVB exposure for healthy growth. With 
                 the right care, they can live for **50+ years**, making them a lifelong companion for reptile lovers.
                 
-                If you are searching for a **friendly, easy-to-care-for, and visually stunning** pet tortoise, Hermann's Tortoise is 
+                If you are searching for a **friendly, easy-to-care-for, and visually stunning** pet tortoise, Hermanns Tortoise is 
                 an excellent option! 🐢✨
               </p>
 

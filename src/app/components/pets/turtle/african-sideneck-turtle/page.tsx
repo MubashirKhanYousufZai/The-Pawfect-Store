@@ -40,7 +40,7 @@ const AfricanSideneckTurtlePage = () => {
                 spacious environment.
 
                 With their **gentle temperament** and unique appearance, the African Sideneck Turtle is a fascinating addition to 
-                any reptile enthusiast's collection. They are long-lived and can make wonderful pets for those willing to provide 
+                any reptile enthusiasts collection. They are long-lived and can make wonderful pets for those willing to provide 
                 them with a suitable habitat. 🐢✨
               </p>
 

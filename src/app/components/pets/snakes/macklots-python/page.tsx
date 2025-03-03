@@ -27,16 +27,16 @@ const MacklotsPythonPage = () => {
                 The Pawfect Store
               </h2>
               <h1 className="text-gray-900 text-4xl font-bold mt-2">
-                Macklot's Python 🐍
+                Macklots Python 🐍
               </h1>
               <p className="text-gray-600 text-lg mt-4 leading-relaxed">
-                The **Macklot's Python** (*Liasis mackloti*), also known as the **Freckled Python**, is a **versatile, semi-arboreal snake** 
+                The **Macklots Python** (*Liasis mackloti*), also known as the **Freckled Python**, is a **versatile, semi-arboreal snake** 
                 native to **Indonesia, Timor, and New Guinea**. With its **iridescent scales** and **earthy brown to olive coloration**, 
                 it is an attractive and unique pet snake for experienced keepers.  
 
                 This species is known for being **active, alert, and strong-bodied**, with a curious personality. 
                 While juveniles can be defensive, **consistent handling** helps them become more docile over time.  
-                Macklot's Pythons require **spacious enclosures** with both **climbing opportunities** and ground space.  
+                Macklots Pythons require **spacious enclosures** with both **climbing opportunities** and ground space.  
                 They are **excellent feeders**, thriving on a diet of appropriately sized rodents.  
               </p>
 

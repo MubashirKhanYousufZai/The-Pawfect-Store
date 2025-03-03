@@ -39,10 +39,10 @@ const TeddyGoatPage = () => {
                 weather conditions, especially in milder climates.
 
                 While they may not be as productive in terms of milk as other breeds, they are still known to produce **1-2 liters** 
-                of milk per day, which is perfect for **small household needs**. The **Teddy Goat** is also a great option if you're looking 
+                of milk per day, which is perfect for **small household needs**. The **Teddy Goat** is also a great option if you are looking 
                 for a **charming companion** on your farm!
 
-                If you're looking for a **cuddly, low-maintenance goat** with a **cute personality**, the Teddy Goat is a great fit! 🐐✨
+                If you are looking for a **cuddly, low-maintenance goat** with a **cute personality**, the Teddy Goat is a great fit! 🐐✨
               </p>
 
               {/* Price and Buttons */}

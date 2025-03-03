@@ -40,7 +40,7 @@ const FriesianHorsePage = () => {
                 companions for riders of all skill levels. Friesians excel in a variety of disciplines, including **equestrian sports**, 
                 and their striking beauty also makes them a favorite in the **film and television industry**.
 
-                Whether you're looking for a **stunning show horse** or a **graceful companion**, the **Friesian Horse** is sure 
+                Whether you are looking for a **stunning show horse** or a **graceful companion**, the **Friesian Horse** is sure 
                 to impress with its elegance and charm. 🐴✨
               </p>
 

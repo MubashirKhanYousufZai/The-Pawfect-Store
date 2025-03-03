@@ -37,11 +37,11 @@ const WelshPonyPage = () => {
                 Welsh Ponies are famous for their **beauty**, with their **well-proportioned bodies**, **wavy coats**, and elegant 
                 movement. They come in a variety of colors, including **bay**, **chestnut**, and **grey**, making each pony unique. 
 
-                These ponies are often used in **pony driving**, **show jumping**, and as **children's companions** due to their 
+                These ponies are often used in **pony driving**, **show jumping**, and as **childrens companions** due to their 
                 calm demeanor and **trainability**. Additionally, they are hardy and can adapt to a wide range of environments. 
 
-                Whether you're looking for a show pony, a companion for your kids, or an agile pony for various equestrian activities, 
-                the Welsh Pony’s **charming personality** and **versatility** make it a perfect fit for any family. 🐴✨
+                Whether you are looking for a show pony, a companion for your kids, or an agile pony for various equestrian activities, 
+                the Welsh Ponys **charming personality** and **versatility** make it a perfect fit for any family. 🐴✨
               </p>
 
               {/* Price and Buttons */}

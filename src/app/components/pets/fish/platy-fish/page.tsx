@@ -38,7 +38,7 @@ const PlatyFishPage = () => {
                 They are also known for being **peaceful** and thrive in **community tanks** with other non-aggressive species. Their small size 
                 and **easy care** requirements make them perfect for tanks of all sizes, and they adapt well to a range of water conditions.
 
-                Whether you're a beginner looking for a **colorful and easy-to-care-for fish** or an experienced aquarist wanting an **energetic addition** 
+                Whether you are a beginner looking for a **colorful and easy-to-care-for fish** or an experienced aquarist wanting an **energetic addition** 
                 to your aquarium, the Platy Fish is an excellent choice. 🐠✨
               </p>
 

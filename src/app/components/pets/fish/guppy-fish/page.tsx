@@ -39,7 +39,7 @@ const GuppyFishPage = () => {
                 They are **livebearers**, meaning they give birth to live young, which makes breeding them a fun and rewarding experience. 
                 Known for their **active behavior**, Guppies are also very social and thrive in schools, providing a lively display in your tank.
 
-                Whether you're looking for a **colorful addition** to your aquarium or a **low-maintenance fish** for your home, the Guppy Fish 
+                Whether you are looking for a **colorful addition** to your aquarium or a **low-maintenance fish** for your home, the Guppy Fish 
                 is an excellent choice. 🐟✨
               </p>
 

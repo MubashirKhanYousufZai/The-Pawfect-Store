@@ -39,7 +39,7 @@ const MerinoSheepPage = () => {
                 and they are generally docile and social with other sheep.
 
                 Not only do **Merino Sheep** provide high-quality wool, but they are also efficient in **meat production** and can be 
-                a valuable addition to any farm looking to diversify its livestock. Whether you're interested in wool production or 
+                a valuable addition to any farm looking to diversify its livestock. Whether you are interested in wool production or 
                 simply seeking an affectionate and resilient sheep, the Merino is a breed worth considering. 🐑✨
               </p>
 

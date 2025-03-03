@@ -37,7 +37,7 @@ const GoldfishPage = () => {
 
                 Goldfish are **friendly and social**, often seen swimming in schools, and they can adapt to a variety of water conditions. 
                 They are **easy to care for**, making them a great choice for both beginner and experienced aquarium enthusiasts. 
-                Whether you're looking for a **low-maintenance pet** or an **elegant addition** to your aquarium, Goldfish are sure to 
+                Whether you are looking for a **low-maintenance pet** or an **elegant addition** to your aquarium, Goldfish are sure to 
                 brighten up your space. 🐟✨
               </p>
 

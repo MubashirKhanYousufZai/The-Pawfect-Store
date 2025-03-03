@@ -40,7 +40,7 @@ const BeetalGoatPage = () => {
                 These goats are **fast-growing**, making them a popular choice among farmers and breeders. They require **proper 
                 nutrition and space** to maximize their growth and productivity.
                 
-                If you're looking for a **versatile and productive goat breed**, the Beetal Goat is an excellent option for farming 
+                If you are looking for a **versatile and productive goat breed**, the Beetal Goat is an excellent option for farming 
                 and commercial purposes! 🐐✨
               </p>
 

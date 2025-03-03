@@ -39,7 +39,7 @@ const DiscusFishPage = () => {
                 **sensitive** and require slightly more care compared to other species, they are well worth the effort. They need warm, 
                 slightly acidic water and a well-maintained tank to thrive. 
 
-                Whether you're looking to add a **show-stopping centerpiece** to your aquarium or are an experienced aquarist seeking 
+                Whether you are looking to add a **show-stopping centerpiece** to your aquarium or are an experienced aquarist seeking 
                 a fish with personality, the Discus Fish is a perfect choice. 🐟✨
               </p>
 

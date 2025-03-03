@@ -39,7 +39,7 @@ const BettaFishPage = () => {
                 making them ideal for beginner aquarists. These fish are known for their **bold personality** and **graceful movement** 
                 as they swim through the water. 
 
-                Whether you're adding a **beautiful centerpiece** to your aquarium or looking for a **hardy and resilient fish**, 
+                Whether you are adding a **beautiful centerpiece** to your aquarium or looking for a **hardy and resilient fish**, 
                 Betta Fish make a perfect choice. 🐠✨
               </p>
 

@@ -39,7 +39,7 @@ const NeonTetraPage = () => {
                 They thrive in **school groups**, creating a peaceful and lively presence in the tank. Their small size and **low-maintenance** 
                 care requirements make them perfect for a variety of tank setups.
 
-                Whether you're a beginner looking for an easy-to-care-for fish or a seasoned aquarist wanting a colorful addition to your 
+                Whether you are a beginner looking for an easy-to-care-for fish or a seasoned aquarist wanting a colorful addition to your 
                 aquarium, the Neon Tetra is a perfect choice. 🌟✨
               </p>
 

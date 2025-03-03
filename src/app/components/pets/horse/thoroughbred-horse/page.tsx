@@ -35,7 +35,7 @@ const ThoroughbredHorsePage = () => {
                 **dressage**, and **eventing**.
 
                 With a **sleek, athletic build**, these horses are bred for **performance** and are renowned for their **endurance** 
-                and **intelligence**. Whether you're an **equestrian** looking for a partner for competitive sports, or a racing enthusiast, 
+                and **intelligence**. Whether you are an **equestrian** looking for a partner for competitive sports, or a racing enthusiast, 
                 the **Thoroughbred Horse** provides unmatched **speed**, **power**, and **heart** in the arena. 
 
                 These horses boast a variety of solid colors, but are typically seen in shades of **bay**, **chestnut**, and **gray**. 

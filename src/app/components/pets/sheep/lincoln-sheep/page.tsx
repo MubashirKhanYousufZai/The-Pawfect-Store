@@ -38,7 +38,7 @@ const LincolnSheepPage = () => {
                 The ewes are excellent mothers, and their **wool is prized for its strength**, making it perfect for textiles and yarn production.
 
                 With a **calm demeanor**, Lincoln Sheep are easy to handle and well-suited for both commercial and small-scale farming. 
-                Whether you're interested in raising them for **meat, wool, or breeding**, Lincoln Sheep offer significant rewards for farmers. 🐑✨
+                Whether you are interested in raising them for **meat, wool, or breeding**, Lincoln Sheep offer significant rewards for farmers. 🐑✨
               </p>
 
               {/* Price and Buttons */}

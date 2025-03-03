@@ -39,7 +39,7 @@ const ArabianHorsePage = () => {
                 as well as riding and showing. Due to their **gentle nature** and strong bond with their owners, Arabians are not only 
                 prized in competition but also cherished as companions. 
 
-                Whether you're a professional equestrian or a lover of this majestic breed, the **Arabian Horse** offers unparalleled 
+                Whether you are a professional equestrian or a lover of this majestic breed, the **Arabian Horse** offers unparalleled 
                 **grace** and **strength**. 🐎✨
               </p>
 

@@ -40,7 +40,7 @@ const QuarterHorsePage = () => {
                 as they are both **gentle** and **easy to train**, making them ideal for riders of all levels. 
 
                 With their **short, powerful legs** and **compact build**, Quarter Horses are perfect for those seeking a 
-                reliable and hardworking companion. Whether you're interested in competitive sports or looking for a loyal 
+                reliable and hardworking companion. Whether you are interested in competitive sports or looking for a loyal 
                 companion, the **Quarter Horse** is a fantastic choice. 🐎✨
               </p>
 

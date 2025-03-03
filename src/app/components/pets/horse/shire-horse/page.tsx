@@ -40,7 +40,7 @@ const ShireHorsePage = () => {
                 farm work, and even participation in horse shows. Shires have a loyal following due to their **gentle giants** 
                 nature, making them wonderful companions.
 
-                Whether you're looking to add a powerful working horse to your farm or a stunning show horse to your collection, 
+                Whether you are looking to add a powerful working horse to your farm or a stunning show horse to your collection, 
                 the **Shire Horse** is an exceptional breed that will not disappoint. 🐴✨
               </p>
 

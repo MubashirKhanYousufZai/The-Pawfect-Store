@@ -38,7 +38,7 @@ const DorsetSheepPage = () => {
                 Dorsets are also **unique in their ability to breed out of season**, making them highly efficient in lamb production. 
 
                 With their **docile temperament**, they are easy to handle and well-suited for both small and large-scale farming operations. 
-                Whether you're looking to raise them for meat production or breeding, Dorset Sheep are a reliable and profitable choice for any farm. 🐑✨
+                Whether you are looking to raise them for meat production or breeding, Dorset Sheep are a reliable and profitable choice for any farm. 🐑✨
               </p>
 
               {/* Price and Buttons */}
