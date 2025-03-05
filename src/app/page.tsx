@@ -27,7 +27,8 @@ const Home = () => {
             Because when it comes to your pets, only **pure PAWFECTION** will do! 🐶🐱🐾
           </p>
           <div className="flex justify-center">
-            <Link href="/shop">
+            <Link href="/components/about
+            ">
               <button 
                 className="inline-flex text-white bg-teal-500 border-0 py-3 px-8 text-lg font-semibold rounded-lg 
                 focus:outline-none hover:bg-teal-600 transition duration-300 shadow-md hover:shadow-lg transform hover:scale-105"
