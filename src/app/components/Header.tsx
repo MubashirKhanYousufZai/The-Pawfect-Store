@@ -1,9 +1,17 @@
-"use client"; // Ensure this is a Client Component
+"use client";
 
 import React from "react";
 import Link from "next/link";
 import { usePathname } from "next/navigation";
-import { FaPaw, FaHome, FaInfoCircle, FaDog, FaUtensils, FaPhoneAlt } from "react-icons/fa";
+import {
+  FaPaw,
+  FaHome,
+  FaInfoCircle,
+  FaDog,
+  FaUtensils,
+  FaPhoneAlt,
+} from "react-icons/fa";
+import { GiDogHouse } from "react-icons/gi";
 import { motion } from "framer-motion";
 
 const Header = () => {
@@ -14,18 +22,19 @@ const Header = () => {
     { name: "About", path: "/components/about", icon: <FaInfoCircle /> },
     { name: "Pets", path: "/components/pets", icon: <FaDog /> },
     { name: "Food", path: "/components/food", icon: <FaUtensils /> },
+    { name: "Accessories", path: "/components/accessories", icon: <GiDogHouse /> },
     { name: "Contact", path: "/components/contact", icon: <FaPhoneAlt /> },
   ];
 
   return (
     <motion.header
-      initial={{ opacity: 0, y: -50 }}
+      initial={{ opacity: 0, y: -20 }}
       animate={{ opacity: 1, y: 0 }}
-      transition={{ duration: 1 }}
-      className="text-white bg-teal-500 body-font shadow-md"
+      transition={{ duration: 0.8 }}
+      className="bg-teal-500 shadow-md sticky top-0 z-50"
     >
-      <div className="container mx-auto flex flex-wrap p-5 flex-col md:flex-row items-center">
-        {/* Logo Section with animation */}
+      <div className="container mx-auto flex flex-wrap p-5 flex-col md:flex-row items-center hover:text-white">
+        {/* Logo */}
         <motion.div
           initial={{ opacity: 0 }}
           animate={{ opacity: 1 }}
@@ -33,14 +42,14 @@ const Header = () => {
         >
           <Link
             href="/"
-            className="flex title-font font-bold items-center text-white mb-4 md:mb-0 text-2xl transform transition duration-300 ease-in-out hover:scale-110"
+            className="flex items-center text-2xl font-bold text-teal-900 hover:scale-110 transition-transform"
           >
-            <FaPaw className="text-4xl text-white" />
-            <span className="ml-3">The Pawfect Store</span>
+            <FaPaw className="text-4xl text-teal-800" />
+            <span className="ml-2">The Pawfect Store</span>
           </Link>
         </motion.div>
 
-        {/* Navigation Menu with hover animations */}
+        {/* Navigation */}
         <nav className="md:ml-auto md:mr-auto flex flex-wrap items-center text-lg justify-center font-medium">
           {navItems.map((item, index) => (
             <motion.div
@@ -51,12 +60,11 @@ const Header = () => {
             >
               <Link
                 href={item.path}
-                className={`mr-8 flex items-center space-x-2 hover:text-teal-200 transition-all duration-300 transform hover:scale-105 hover:bg-teal-600 px-4 py-2 rounded-lg ${
+                className={`mr-6 flex items-center gap-2 px-4 py-2 rounded-lg transition-all duration-300 ${
                   pathname === item.path
-                    ? "bg-teal-700 text-white font-bold"
-                    : "text-white"
+                    ? "bg-teal-600 text-white font-bold shadow"
+                    : "text-teal-800 hover:bg-white/40 hover:text-teal-900"
                 }`}
-                aria-current={pathname === item.path ? "page" : undefined}
               >
                 {item.icon}
                 <span>{item.name}</span>
@@ -65,7 +73,7 @@ const Header = () => {
           ))}
         </nav>
 
-        {/* Call-to-Action Button with hover animation */}
+        {/* CTA Button */}
         <motion.div
           initial={{ opacity: 0 }}
           animate={{ opacity: 1 }}
@@ -73,7 +81,7 @@ const Header = () => {
         >
           <Link href="/components/about">
             <button
-              className="inline-flex items-center bg-white text-teal-500 border-0 py-2 px-5 text-lg font-semibold rounded-lg focus:outline-none hover:bg-gray-100 transition-all duration-300 shadow-md hover:shadow-lg transform hover:scale-105"
+              className="inline-flex items-center bg-white text-teal-600 font-semibold py-2 px-5 rounded-lg shadow hover:bg-gray-200 hover:shadow-md transition-all transform hover:scale-105"
               aria-label="Shop Now"
             >
               🛍️ Shop Now
