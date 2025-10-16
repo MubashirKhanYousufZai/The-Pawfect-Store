@@ -75,7 +75,7 @@ const Contact = () => {
           <div className="flex flex-col items-center bg-white shadow-lg p-6 rounded-xl">
             <FaEnvelope className="text-3xl text-teal-500" />
             <h3 className="text-lg font-semibold mt-2">Email</h3>
-            <p className="text-gray-600">munashirmpa2008@gmail.com</p>
+            <p className="text-gray-600">mubashirmpa2008@gmail.com</p>
           </div>
         </Link>
         <div className="flex flex-col items-center bg-white shadow-lg p-6 rounded-xl">
